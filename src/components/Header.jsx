@@ -1,12 +1,12 @@
-import React from 'react' 
+import React from 'react'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import {faHome, faAddressBook, faCamera, faFolder, faAddressCard, faUser} from '@fortawesome/free-solid-svg-icons'
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
     <header className='header'>
-      <div><img src="assets/pwc.png" alt="" style={{width: "100px"}} /></div>
+      <div><img src="assets/pwc.png" alt="" style={{ width: "100px" }} /></div>
       <div>
         <h1><span> </span>PwC Student Website</h1>
       </div>
@@ -24,8 +24,7 @@ const Header = () => {
         <Link to="/posts"> Posts </Link> |
         <Link to="/users"> Users </Link> |
         <Link to="/todos"> Todos </Link> |
-        <Link to="/login"> Login </Link> |
-        <Link to="/singleblogpage"> BlogPage </Link> |
+        <Link to="/login"> Login </Link>
 
         {/* <a id="darkMode"> <img src="moon.png"/></a> */}
       </div>

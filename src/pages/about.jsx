@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section class="container">
+    <section className="container">
          <h2>About Us</h2>
       <p>
         PwC has been operating in Nigeria since 1953 through its predecessor
