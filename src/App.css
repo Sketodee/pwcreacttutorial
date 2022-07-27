@@ -13,7 +13,28 @@ body {
 
 a {
     text-decoration: none;
-    color: #979292ba
+    color: white;
+}
+
+a:hover{
+  padding-bottom: 3px;
+  border-bottom: 2px solid #52ab98;
+  animation-name: borderAnimate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes borderAnimate {
+  0% {  border-bottom: 2px solid #356359; }
+  50% { border-bottom: 2px solid white}
+  100% { border-bottom: 2px solid #04fac5; }
+}
+
+.headerHero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
 }
 
 h2 {
@@ -31,8 +52,9 @@ ul li {
     margin: 5px 0;
 }
 
-header, footer {
-    background: #F4F4F4;
+.header {
+    background: #2b6777;
+    color: white;
     padding: 1rem;
     text-align: center;
     display: flex;
@@ -40,8 +62,25 @@ header, footer {
     align-items: center;
 }
 
+footer {
+  background: #52ab98;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 label {
     font-weight: bold;
+}
+
+.homeContainer {
+  margin: auto;
+  width: 90%;
+  overflow: auto;
+  padding: 3rem 2rem;
 }
 
 .container {
@@ -63,8 +102,8 @@ label {
 #myForm label {
     display: block;
 }
-
-#myForm input[type="text"] , input[type="number"]  {
+/* [type="text"] , input[type="number"] , input[type="password"]  */
+#myForm input {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
@@ -132,6 +171,28 @@ label {
     overflow: auto;
     padding: 3rem 2rem;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3px;
+}
+
+.post-card {
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #52ab98;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* div {
+    background-color: aqua;
+    padding: 10px;
+} */
 
 
 /* .App {

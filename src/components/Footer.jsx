@@ -15,12 +15,11 @@ const Footer = () => {
       </div>
       <div>
         <p>Connect With us</p>
-        <p>LinkedIn</p>
-        <p>Facebook</p>
+        <p> LinkedIn</p>
+        <p> Facebook</p>
         <p>Instagram</p>
       </div>
     </footer>
-
   )
 }
 

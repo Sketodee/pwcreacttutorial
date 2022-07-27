@@ -1,14 +1,21 @@
 
 import './App.css';
 import Header from './components/Header';
-import Home from './pages/home';
+import Home from './pages/Home';
 import Footer from './components/Footer';
-import About from './pages/about';
-import ApplicationForm from './pages/applicationform';
-import ContactUs from './pages/contactus';
-import StudentsData from './pages/studentsdata';
+import About from './pages/About';
+import ApplicationForm from './pages/ApplicationForm';
+import ContactUs from './pages/ContactUs';
+import StudentsData from './pages/StudentsData';
 import { Routes, Route } from "react-router-dom"
-import Gallery from './pages/gallery';
+import Gallery from './pages/Gallery';
+import RecruitmentForm from './pages/RecruitmentForm';
+import Posts from './pages/Posts';
+import Users from './pages/Users';
+import Todos from './pages/Todos';
+import Login from './pages/Login';
+import SingleBlogPage from './pages/SingleBlogPage';
+
 
 function App() {
 
@@ -65,6 +72,12 @@ function App() {
         <Route path='/contactus' element={<ContactUs />} />
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/studentsdata' element={<StudentsData studentsDataDetails={StudentsDataDetails} />} />
+        <Route path='recruitmentform' element = {<RecruitmentForm />}/>
+        <Route path='/posts' element ={<Posts/>}/>
+        <Route path='/users' element ={<Users/>}/>
+        <Route path='/todos' element ={<Todos/>}/>
+        <Route path='/login' element ={<Login/>}/>
+        <Route path='/singleblogpage/:id'  element={<SingleBlogPage/>}/>
         {/* <Route path='/studentsdata' element={<StudentsData/>}/> */}
       </Routes>
       <Footer />
