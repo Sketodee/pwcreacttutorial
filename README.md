@@ -1,4 +1,4 @@
-Pwc Recat Tutorial 
+PwC React Tutorial 
 
 Covered Topics :
 
