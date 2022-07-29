@@ -15,6 +15,7 @@ import Users from './pages/Users';
 import Todos from './pages/Todos';
 import Login from './pages/Login';
 import SingleBlogPage from './pages/SingleBlogPage';
+import CareerForm from './pages/CareerForm';
 
 
 function App() {
@@ -78,6 +79,7 @@ function App() {
         <Route path='/todos' element ={<Todos/>}/>
         <Route path='/login' element ={<Login/>}/>
         <Route path='/singleblogpage/:id'  element={<SingleBlogPage/>}/>
+        <Route path='careerform' element={<CareerForm />}/>
         {/* <Route path='/studentsdata' element={<StudentsData/>}/> */}
       </Routes>
       <Footer />

@@ -10,9 +10,6 @@ const Header = () => {
       <div>
         <h1><span> </span>PwC Student Website</h1>
       </div>
-      {/* <div>
-        <Counter />
-      </div> */}
       <div>
         <Link className='link' to="/"> Home </Link> |
         <Link to="/contactus"> Contact Us </Link> |
@@ -24,7 +21,8 @@ const Header = () => {
         <Link to="/posts"> Posts </Link> |
         <Link to="/users"> Users </Link> |
         <Link to="/todos"> Todos </Link> |
-        <Link to="/login"> Login </Link>
+        <Link to="/login"> Login </Link> |
+        <Link to="/careerform"> Career Form </Link>
 
         {/* <a id="darkMode"> <img src="moon.png"/></a> */}
       </div>
